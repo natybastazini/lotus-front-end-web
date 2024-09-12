@@ -8,7 +8,7 @@ export default function Home() {
       <div>
         <Image src={Logo} alt="logo" className="w-24"></Image>
         <h1 className="text-escrita">
-          Cadastrar
+          Cadastrar naty
         </h1>
       </div>
     </div>
