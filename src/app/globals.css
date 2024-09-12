@@ -4,9 +4,8 @@
 
 :root {
   --escrita: #7E7D7D;
- 
-
-  font-family: "ABeeZee", sans-serif;
+  --input: #FFEBE3;
+  --principal: #FFB194
 }
 
 /* @media (prefers-color-scheme: dark) {

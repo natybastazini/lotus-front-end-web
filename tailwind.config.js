@@ -10,7 +10,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'escrita': "var(--escrita)"
+        'escrita': "var(--escrita)",
+        'input': "var(--input)",
+        'principal': "var(--principal)"
       },
       fontFamily: {
         
