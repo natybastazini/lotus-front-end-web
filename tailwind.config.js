@@ -12,6 +12,9 @@ module.exports = {
       colors: {
         'escrita': "var(--escrita)"
       },
+      fontFamily: {
+        
+      },
     },
   },
   plugins: [],
