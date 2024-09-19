@@ -3,14 +3,14 @@ import Logo from "./public/images/logo.svg";
 
 import Link from "next/link"
 
-export default function Cadastro() {
+export default function Login() {
   return (
     <div className="flex flex-col h-screen">
       <header className="flex flex-col md:flex-row h-[20%] p-4 items-center">
         {/* CABEÇALHO */}
         <Image src={Logo} alt="logo" className="w-40 h-20" />
         <div className="w-full flex flex-col items-center justify-center mt-4 md:mt-0">
-          <h1 className="font-semibold text-3xl md:text-4xl text-escrita">
+          <h1 className="font-AbeeZee font-semibold text-3xl md:text-4xl text-escrita">
             Login
           </h1>
         </div>
@@ -54,9 +54,11 @@ export default function Cadastro() {
           <p>
             Já tem uma conta?
           </p>
-          <Link href="/login">
-            Faça seu login
-          </Link>
+          <div className="text-white">
+            <Link href="">
+              Faça seu cadastro
+            </Link>
+          </div>
         </div>
       </main>
     </div>

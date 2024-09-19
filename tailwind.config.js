@@ -15,7 +15,8 @@ module.exports = {
         'principal': "var(--principal)"
       },
       fontFamily: {
-        
+        AbeeZee: "var(--font-abeeZee)",
+        Inter: "var(--font-inter)"
       },
     },
   },
